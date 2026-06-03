@@ -1,6 +1,7 @@
 # Vipul Portfolio
 
-This repository contains my personal portfolio website, designed to highlight my professional journey as a **Software Developer (.NET & API Specialist)** and immediate joiner.
+Personal portfolio website showcasing my professional experience, education, skills, and projects. Built with HTML, CSS, and JavaScript. Responsive, recruiter‑friendly design with resume download and contact links.
+
 
 ## 🚀 Features
 - Responsive design with clean layout
@@ -16,7 +17,7 @@ This repository contains my personal portfolio website, designed to highlight my
 
 ## 🌐 Live Demo
 Once deployed via GitHub Pages, it will be available at:  
-**https://VVPawar.github.io/vipul-portfolio**
+**[https://github.com/VVPawar/vipul-portfolio]**
 
 ## 📬 Contact
 - Email: [vipulpawar2020@gmail.com](mailto:vipulpawar2020@gmail.com)  
