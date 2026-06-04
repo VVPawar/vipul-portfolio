@@ -101,6 +101,29 @@ menuToggle.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
 
+// Auto-hide when clicking outside the menu (works on both desktop & mobile)
+document.addEventListener("click", (event) => {
+  if (!navLinks.contains(event.target) && !menuToggle.contains(event.target)) {
+    navLinks.classList.remove("active");
+  }
+});
+
+// Auto-hide when tapping a link (important for mobile)
+navLinks.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
+  });
+});
+
+/*
+//Hamburger menu toggle
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
 // Auto-hide when mouse leaves the menu area
 navLinks.addEventListener("mouseleave", () => {
   navLinks.classList.remove("active");
@@ -111,4 +134,4 @@ document.addEventListener("click", (event) => {
   if (!navLinks.contains(event.target) && !menuToggle.contains(event.target)) {
     navLinks.classList.remove("active");
   }
-});
+});*/
